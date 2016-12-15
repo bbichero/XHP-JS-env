@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5a41fb4ef939c04580f0d1c2ed7c5a28",
+    "packages": [
+        {
+            "name": "facebook/xhp-lib",
+            "version": "2.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/xhp-lib.git",
+                "reference": "8b770c8c0a7f59bbd7244a52d5044effa84ddf91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/8b770c8c0a7f59bbd7244a52d5044effa84ddf91",
+                "reference": "8b770c8c0a7f59bbd7244a52d5044effa84ddf91",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "~3.6"
+            },
+            "require-dev": {
+                "91carriage/phpunit-hhi": "^5.1.0",
+                "phpunit/phpunit": "^5.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Class library for XHP",
+            "homepage": "https://github.com/facebook/xhp-lib",
+            "keywords": [
+                "facebook",
+                "hack",
+                "hhvm",
+                "xhp"
+            ],
+            "time": "2016-01-20T18:48:31+00:00"
+        },
+        {
+            "name": "hhvm/xhp-js",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/xhp-js.git",
+                "reference": "ea7974b64876838231cd8eb36e348f3d28f94bfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/xhp-js/zipball/ea7974b64876838231cd8eb36e348f3d28f94bfb",
+                "reference": "ea7974b64876838231cd8eb36e348f3d28f94bfb",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/xhp-lib": "~2.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Easily create JS controllers for XHP elements, and XHP wrappers for React elements",
+            "time": "2015-07-09T16:48:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

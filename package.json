@@ -1,0 +1,27 @@
+{
+  "description": "HACK XHP-JS REACT BASIC ENV",
+  "scripts": {
+    "build": "npm run build:All",
+    "build:All": "npm run build:Bundle && npm run build:JSX",
+    "build:Bundle": "browserify -r xhpjs -r react -r ClassName -o js-build/bundle.js",
+    "build:JSX": "jsx class/react/ js-build/"
+  },
+  "author": "bbichero",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-tools": "^0.13.1",
+    "reactify": "^1.1.1",
+    "xhpjs": "^1.0.0",
+    "axios": "^0.15.3"
+  },
+  "browser": {
+    "ClassName": "class/react/ClassName.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}

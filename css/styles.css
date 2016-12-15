@@ -1,0 +1,80 @@
+
+.line
+{
+    width: 60%;
+    height: 40px;
+    background: #cce6ff;
+}
+
+.line:hover
+{
+   background-color:#f2f2f2;
+}
+
+.delete_button
+{
+    width: 60px;
+    height: 20px;
+    background: #ffe6e6;
+    border-radius: 4px 4px 4px;
+    border: solid 1px #ffcccc;
+}
+
+.add_button
+{
+    width: 60px;
+    height: 20px;
+    border-radius: 4px 4px 4px;
+    background: #ccffcc;
+    border: solid 1px #b3ffb3;
+}
+
+.table_todo
+{
+    width: 60%;
+}
+
+.final_todo
+{
+    background: #e6e6e6;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 20%;
+    border: solid 1px #bfbfbf;
+}
+
+.field_label
+{
+    width: 60%;
+    line-height: 30px;
+    display: flex;
+    float: left;
+}
+
+.field_input
+{
+    display: flex;
+    float: right;
+    width: 40%;
+}
+
+.field
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 30px;
+    width: 400px;
+}
+
+
+.field_red
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 30px;
+    width: 400px;
+    border: solid 1px red;
+}

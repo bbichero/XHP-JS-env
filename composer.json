@@ -1,0 +1,13 @@
+{
+  "require": {
+    "facebook/xhp-lib": "^2.3.2",
+    "hhvm/xhp-js": "^1.0.0"
+  },
+  "minimum-stability": "dev",
+  "license": ["BSD-3-Clause"],
+  "scripts": {
+    "post-install-cmd": [
+      "npm install && npm run build"
+    ]
+  }
+}
